@@ -1,0 +1,11 @@
+startshape TREE
+
+rule TREE{
+  CIRCLE{}
+  TREE{y 1 size 0.99}
+}
+
+rule TREE 0.045{
+  TREE{rotate 20}
+  TREE{rotate -20}
+}
